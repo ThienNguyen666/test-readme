@@ -1,6 +1,6 @@
 # 🚀 CSKH-system  
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-0-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 **Nền tảng Hỗ trợ Tư vấn & Chăm sóc Khách hàng cho Doanh nghiệp Bán hàng**  
 
@@ -77,7 +77,30 @@ npm run dev
 
 Cảm ơn những anh em máu lửa đã cùng xây dựng dự án:
 
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section --> <!-- prettier-ignore-start --> <!-- markdownlint-disable --> <!-- ALL-CONTRIBUTORS-LIST:END -->
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/ThienNguyen666"><img src="https://avatars.githubusercontent.com/u/174235441?v=4?s=100" width="100px;" alt="Nguyễn Chí Thiện"/><br /><sub><b>Nguyễn Chí Thiện</b></sub></a><br /><a href="https://github.com/ThienNguyen666/test-readme/commits?author=ThienNguyen666" title="Code">💻</a></td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td align="center" size="13px" colspan="7">
+        <img src="https://raw.githubusercontent.com/all-contributors/all-contributors-cli/1b8533af435da9854653492b1327a23a4dbd0a10/assets/logo-small.svg">
+          <a href="https://all-contributors.js.org/docs/en/bot/usage">Add your contributions</a>
+        </img>
+      </td>
+    </tr>
+  </tfoot>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
 
 ✨ Tham gia ngay để tên bạn hiển thị trong bảng vàng vinh danh + leaderboard đua top!
 
