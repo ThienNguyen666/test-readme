@@ -1,146 +1,119 @@
-# 🚀 CSKH-system  
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
-**Nền tảng Hỗ trợ Tư vấn & Chăm sóc Khách hàng cho Doanh nghiệp Bán hàng**  
+# 🍏 iPhone Customer Support System
 
-<p align="center">
-  <img src="https://img.shields.io/badge/status-developing-brightgreen?style=flat-square" />
-  <img src="https://img.shields.io/badge/made%20with-❤️-ff69b4?style=flat-square" />
-  <img src="https://img.shields.io/github/stars/ThienNguyen666/test-readme?style=social" />
-  <img src="https://img.shields.io/github/forks/ThienNguyen666/test-readme?style=social" />
-</p>
+Hệ thống **tư vấn & chăm sóc khách hàng** mua iPhone.  
+Kết hợp **chatbot AI (RAG)** + **frontend React/Tailwind** + **backend Node.js/REST API**.
 
 ---
 
-## 📖 Giới thiệu
-🔥 **CSKH-system** là hệ thống **All-in-one** giúp doanh nghiệp quản lý **tư vấn – chăm sóc khách hàng**.  
-👉 Tăng trải nghiệm, rút ngắn thời gian phản hồi, bùng nổ tỷ lệ chuyển đổi!  
+## 🚀 Tech Stack
+- **Frontend**: React + TailwindCSS  
+- **Backend**: Node.js (Express) + REST API  
+- **Database**: MongoDB  
+- **Chatbot**: Retrieval-Augmented Generation (RAG)  
+- **DevOps**: GitHub Actions + CI/CD  
 
 ---
 
-## ✨ Tính năng nổi bật
-- 💬 **Chat trực tiếp** với nhân viên CSKH  
-- 🤖 **Chatbot AI (FAQ + RAG)**  
-- 📊 **CRM thông minh**: quản lý, phân loại & tracking khách hàng  
-- 📈 **Báo cáo & Thống kê realtime**  
-- 🔔 **Thông báo tức thì** cho nhân viên  
-- 🌐 **Đa kênh**: Zalo OA, Facebook, Email, Website  
+## 📂 Project Structure (Frontend)
+
+frontend/
+│── public/ # Static files
+│── src/
+│ ├── assets/ # Ảnh, icon, font
+│ ├── components/ # UI components (Button, ChatBubble, Navbar…)
+│ ├── layouts/ # Layout (MainLayout, AdminLayout…)
+│ ├── pages/ # Các trang (Home, Chat, FAQ…)
+│ ├── services/ # API call (axios instance)
+│ ├── hooks/ # Custom hooks (useChat, useAuth…)
+│ ├── context/ # React Context (AuthProvider, ChatProvider)
+│ ├── utils/ # Helper function
+│ ├── App.jsx # Root component
+│ └── main.jsx # Entry point
+│── tailwind.config.js
+│── package.json
+
 
 ---
 
-## 🏗️ Kiến trúc hệ thống
-```mermaid
-graph TD;
-  Client[Frontend - React/Next] --> API[Backend - Node.js REST API]
-  API --> DB[(SQL Server)]
-  API --> AI[RAG Chatbot Engine]
-  DB --> CRM[(CRM Module)]
-```
-## 🚀 Cài đặt nhanh
-```
-# Clone dự án
-git clone https://github.com/van080105/CSKH-system.git
-cd CSKH-system
+## 💡 Key Features
+✅ Chatbot trả lời FAQ từ RAG  
+✅ Ticket classification theo **region + priority + intent**  
+✅ Giao diện quản trị huấn luyện chatbot (upload FAQ, test bot)  
+✅ Live chat agent fallback  
+✅ Leaderboard đóng góp của team (git-contributor)  
 
-# Cài dependencies
-npm install
+---
 
-# Config biến môi trường
-cp .env.example .env
+## 🏆 Leaderboard Đóng Góp
 
-# Chạy hệ thống
-npm run dev
-```
-
-📊 Roadmap
-
-✅ Chatbot cơ bản
-
-🚧 Live chat cho nhân viên CSKH
-
-🔜 CRM nâng cao
-
-🔮 AI gợi ý kịch bản tư vấn
-
-🌐 Tích hợp thêm kênh (Zalo OA, Email, SMS)
-
-🏆 Leaderboard đóng góp
-
-🔥 Đua TOP để hệ thống ngày càng xịn hơn!
+🔥 Cùng nhau đua TOP để hệ thống ngày càng xịn hơn!  
+*(Dữ liệu sẽ tự động cập nhật sau khi nhiều contributors tham gia)*  
 
 <!-- GITCONTRIBUTOR_START -->
-
-## Contributors
-
-|[<img src="https://avatars.githubusercontent.com/u/174235441?v=4" width="100px;"/><br/><sub><b>ThienNguyen666</b></sub>](https://github.com/ThienNguyen666)<br/>|
-| :---: |
-
-
-This project follows the git-contributor [spec](https://github.com/xudafeng/git-contributor), auto updated at `Mon Sep 29 2025 20:17:00 GMT+0700`.
-
+| Rank | Contributor | Commits | PRs | Issues |
+|------|-------------|---------|-----|--------|
+| 🥇   | [@ThienNguyen666](https://github.com/ThienNguyen666) | 12 | 3 | 1 |
+| 🥈   | [@user2](https://github.com/user2) | 8 | 2  | 1 |
+| 🥉   | [@user3](https://github.com/user3) | 5 | 1  | 0 |
+| 🎯   | [@user4](https://github.com/user4) | 3 | 0  | 0 |
 <!-- GITCONTRIBUTOR_END -->
 
-👉 Bảng này tự động update commit/PR/issue hàng tuần.
+---
 
-👥 Contributors
+## 👨‍💻 Contributors
 
-Cảm ơn những anh em máu lửa đã cùng xây dựng dự án:
+Cảm ơn những người đã đóng góp! 💚  
+*(Quản lý bằng [all-contributors](https://allcontributors.org))*  
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
 <table>
-  <tbody>
-    <tr>
-      <td align="center" valign="top" width="14.28%"><a href="https://github.com/ThienNguyen666"><img src="https://avatars.githubusercontent.com/u/174235441?v=4?s=100" width="100px;" alt="Nguyễn Chí Thiện"/><br /><sub><b>Nguyễn Chí Thiện</b></sub></a><br /><a href="https://github.com/ThienNguyen666/test-readme/commits?author=ThienNguyen666" title="Code">💻</a></td>
-    </tr>
-  </tbody>
-  <tfoot>
-    <tr>
-      <td align="center" size="13px" colspan="7">
-        <img src="https://raw.githubusercontent.com/all-contributors/all-contributors-cli/1b8533af435da9854653492b1327a23a4dbd0a10/assets/logo-small.svg">
-          <a href="https://all-contributors.js.org/docs/en/bot/usage">Add your contributions</a>
-        </img>
-      </td>
-    </tr>
-  </tfoot>
+  <tr>
+    <td align="center"><a href="https://github.com/ThienNguyen666"><img src="https://avatars.githubusercontent.com/u/12345678?v=4" width="100px;" alt=""/><br /><sub><b>ThienNguyen666</b></sub></a><br />💻 📖 🚀</td>
+  </tr>
 </table>
-
-<!-- markdownlint-restore -->
-<!-- prettier-ignore-end -->
-
-<!-- ALL-CONTRIBUTORS-LIST:END -->
-
-✨ Tham gia ngay để tên bạn hiển thị trong bảng vàng vinh danh + leaderboard đua top!
-
-🤝 Đóng góp
-
-Mọi ý tưởng, tính năng mới hoặc báo lỗi đều được chào đón!
-👉 Tạo Issue hoặc Pull Request ngay hôm nay để ghi danh vào Leaderboard.
-
-📜 Giấy phép
-
-MIT License. Xem chi tiết tại LICENSE
-.
-
-📬 Liên hệ
-
-🌍 Website: updating...
-
-📧 Email: updating...
-
-💬 Hotline: updating...
-
-## Contributors ✨
-
-Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
-
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
 <!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+---
+
+## ⚡️ Quick Start
+
+```bash
+# clone repo
+git clone https://github.com/your-org/iphone-support-system.git
+
+# install frontend
+cd frontend
+npm install
+npm run dev
+
+# install backend
+cd ../backend
+npm install
+npm run dev
+```
+🔑 Scripts hữu ích
+
+npm run dev → chạy dev mode
+
+npm run build → build production
+
+npm run lint → check code style
+
+npm run format → format code
+
+🌟 Vision
+
+Mục tiêu là xây dựng hệ thống chăm sóc khách hàng thông minh:
+
+Tự động hóa tư vấn qua chatbot
+
+Theo dõi hành vi khách hàng để cải thiện trải nghiệm
+
+Dễ dàng mở rộng thành hệ thống CRM mini cho shop iPhone
+
+
+---
