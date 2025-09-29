@@ -7,8 +7,8 @@
 <p align="center">
   <img src="https://img.shields.io/badge/status-developing-brightgreen?style=flat-square" />
   <img src="https://img.shields.io/badge/made%20with-❤️-ff69b4?style=flat-square" />
-  <img src="https://img.shields.io/github/stars/van080105/CSKH-system?style=social" />
-  <img src="https://img.shields.io/github/forks/van080105/CSKH-system?style=social" />
+  <img src="https://img.shields.io/github/stars/ThienNguyen666/test-readme?style=social" />
+  <img src="https://img.shields.io/github/forks/ThienNguyen666/test-readme?style=social" />
 </p>
 
 ---
