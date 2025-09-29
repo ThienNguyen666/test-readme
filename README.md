@@ -69,7 +69,17 @@ npm run dev
 
 🔥 Đua TOP để hệ thống ngày càng xịn hơn!
 
-<!-- GITCONTRIBUTOR_START --> <!-- GITCONTRIBUTOR_END -->
+<!-- GITCONTRIBUTOR_START -->
+
+## Contributors
+
+|[<img src="https://avatars.githubusercontent.com/u/174235441?v=4" width="100px;"/><br/><sub><b>ThienNguyen666</b></sub>](https://github.com/ThienNguyen666)<br/>|
+| :---: |
+
+
+This project follows the git-contributor [spec](https://github.com/xudafeng/git-contributor), auto updated at `Mon Sep 29 2025 20:17:00 GMT+0700`.
+
+<!-- GITCONTRIBUTOR_END -->
 
 👉 Bảng này tự động update commit/PR/issue hàng tuần.
 
