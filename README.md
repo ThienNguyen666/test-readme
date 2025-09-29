@@ -1,4 +1,7 @@
 # 🚀 CSKH-system  
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-0-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 **Nền tảng Hỗ trợ Tư vấn & Chăm sóc Khách hàng cho Doanh nghiệp Bán hàng**  
 
 <p align="center">
@@ -95,3 +98,16 @@ MIT License. Xem chi tiết tại LICENSE
 📧 Email: updating...
 
 💬 Hotline: updating...
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
